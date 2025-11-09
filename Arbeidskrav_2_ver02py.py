@@ -76,8 +76,10 @@ def fin_areal(a, b):
     return total_areal, ytre_omkrets
 a = float(input("Skriv inn omkrets a: "))
 b = float(input("Skriv inn lengde b: "))
-areal, omkrets = fin_areal 
-print(f"Arealet av figur er {areal:.2f})
+
+areal, omkrets = fin_areal(a, b)
+
+print(f"Arealet av figur er {areal:.2f}")
 print(f"Ytre omkrets av figur er {omkrets:.2f} enheter")
 
 
