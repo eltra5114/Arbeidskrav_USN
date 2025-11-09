@@ -55,7 +55,7 @@ Befolkning = float(input(f"Hva er befolkningstallet i {nytt_Land} (i millioner)?
 
 Land[nytt_Land] = [Hovedstad, Befolkning]
 
-print(f" {Land} Dette er den nye dicitonary")
+print(f" {Land} Dette er den nye dictionary")
 
 # Oppgave 5
 
