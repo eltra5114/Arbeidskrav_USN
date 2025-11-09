@@ -95,8 +95,9 @@ def f(x):
 x = np.linspace(-10, 10, 200)
 y = f(x)
 
-plt.title("Plotting av funksjon fra oppgave 6")
-plt.plot(x,y, label = "f(x) = -x**2 - 5" )
+plt.title("Plotting av funksjon fra oppgave 6", color = "saddlebrown")
+plt.plot(x,y, label = "f(x) = -x**2 - 5", color = "salmon" )
+plt.grid()
 
 
     
