@@ -51,7 +51,7 @@ print(f"Hovedstad i {Land_input} er {Hovedstad}, og der bor {Befolkning: .2f} mi
 
 nytt_Land = input("Skriv navn på det landet du ønsker å legge til :")
 Hovedstad = input(f"Hva er hovedstaden i {nytt_Land}? ")
-Befolkning = float(input(f"Hva er befolningen i {nytt_Land} (i millioner)?"))
+Befolkning = float(input(f"Hva er befolkningstallet i {nytt_Land} (i millioner)?"))
 
 Land[nytt_Land] = [Hovedstad, Befolkning]
 
